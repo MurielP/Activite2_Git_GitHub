@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'BRUSHSTP-webfont';
+    src: url('mespolices/BRUSHSTP-webfont.eot');
+    src: url('mespolices/BRUSHSTP-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mespolices/BRUSHSTP-webfont.woff') format('woff'),
+         url('mespolices/BRUSHSTP-webfont.ttf') format('truetype'),
+         url('mespolices/BRUSHSTP-webfont.svg#BRUSHSTP-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Junicode-Regular-webfont';
+    src: url('mespolices/Junicode-Regular-webfont.eot');
+    src: url('mespolices/Junicode-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mespolices/Junicode-Regular-webfont.woff') format('woff'),
+         url('mespolices/Junicode-Regular-webfont.ttf') format('truetype'),
+         url('mespolices/Junicode-Regular-webfont.svg#Junicode-Regular-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background-image: url("mesimages/fond_ocre.jpg");
+	background-size: 100%;
+	margin: auto;
+	font-family: "Hevetica Neue", Arial, sans-serif;
+	color: #FFFAF0;
+}
+
+#bloc_page
+{
+	width: 900px;
+	margin: auto;
+}
+
+header
+{
+	background: url("mesimages/separateur.png")repeat-x bottom;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#titre_principal 
+{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#logo
+{
+	display: flex; 
+	flex-direction: row;
+	align-items: center;
+}
+
+#logo img 
+{
+	width: 100px;
+	height: 100px;
+	
+}
+
+header h1
+{
+	font-family: "BRUSHSTP-webfont", serif;
+	font-weight: normal;
+	font-size: 5em;
+	color : rgb(223, 242, 255);
+	margin: 0 0 0 10px;
+
+}
+
+header h2
+{
+	font-family: 'BRUSHSTP-webfont', serif;
+	font-size: 2em;
+	font-weight: normal;
+	color : rgb(223, 242, 255);
+	margin-top: 0px;
+	margin-bottom: 32px;
+}
+
+nav ul 
+{
+	list-style-type: none;
+	display: flex;
+	margin-bottom: 37px;
+
+
+
+}
+
+nav li 
+{
+	margin-right: 15px;
+	border-radius: 20 10 20 10px
+
+}
+
+nav a 
+{
+	font-size: 1.2em;
+	color: #F0F8FF;
+	border: 1px dotted;
+	border-radius: 25px;
+	padding: 2px;
+	text-decoration: none;
+
+}
+
+nav a:hover
+{
+	color: firebrick;
+
+}
+
+#banniere_image
+{
+	margin-top: 10px;
+	height: 410px;
+	border-radius: 15px;
+	position: relative;
+	background: url("mesimages/banniere_coffee.jpg")no-repeat;
+	background-size: 100%;
+	margin-bottom: 15px;
+}
+
+#intro
+{
+	position: absolute;
+	top: 0;
+	border-radius: 0px 0px 5px 5px;
+	width: 99.5%;
+	height: 50px;
+	padding-left: 5px;
+	font-family: 'BRUSHSTP-webfont', serif;
+	font-size: 2em;
+	color: rgb(223, 242, 255);
+	background-color: rgba(24,24,24,0.8);
+	
+}
+
+.bouton
+{
+	height: 30px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color:rgb(223, 242, 255);
+	background: -webkit-linear-gradient(left,rgba(250,80,7,0.3),rgba(250,80,7,0.8));
+	border-radius: 5px;
+	padding: 2px;
+	font-family: 'Junicode-Regular-webfont', serif;
+	font-size: 0.8em;
+	text-align: center;
+
+
+	
+}
+
+.bouton img
+{
+	border: 10;
+
+
+}
+
+section
+{
+	display: flex; 
+	margin-bottom: 20px;
+	
+}
+
+article
+{
+	margin-right: 30px;
+	text-align: justify;
+	flex: 2;
+}
+
+.ico_categorie
+{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+article h1
+{
+	font-size: 1.5em;
+	color: firebrick;
+}
+article p
+{
+	font-size: 1em;
+}
+
+aside
+{
+	flex: 1.5;
+	position: relative;
+	background-color: rgba(58,49,46,0.5);
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+    padding: 5px;
+    color: #FFFAF0;
+    font-size: 0.9em;
+
+}
+
+aside div 
+{
+	float: left;
+	width: 250px;
+	padding: 2px;
+	text-align: justify;
+
+}
+
+aside img
+{
+	float: right;
+
+}
+
+
+footer
+{
+	display: flex;
+	background: url("mesimages/separateur.png")repeat-x top;
+	padding-top: 10px;
+}
+
+footer p, footer ul
+{
+	font-size: 0,.7em;
+}
+
+#connaissances
+{
+	width: 30%;
+	text-align: center;
+}
+
+#etymologie
+{
+	width: 50%;
+	text-align: center;
+}
+
+#liste_etymologie ul
+{
+	text-align: left;
+	list-style-image: url("mesimages/icone_coffee-bean.png");
+
+}
+
+#sante
+{
+	width: 30%;
+	text-align: center;
+}
+
+.smiley
+{
+	float: right;
+	padding: 0 4 0 0px;
+}
